@@ -1,0 +1,47 @@
+{
+  "name": "hapi-plugin-boilerplate",
+  "version": "0.0.1",
+  "description": "hapi plugin boilerplate in es6 with babel",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.2.6",
+    "babel-eslint": "^3.0.1",
+    "code": "^1.4.0",
+    "lab": "^5.8.0"
+  },
+  "peerDependencies": {
+    "hapi": ">= 8.x.x"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint --ext .es6 src/",
+    "test": "npm run compile && node_modules/.bin/lab --transform test/transformer.js -t 100",
+    "coverage": "npm run compile && npm run lint && node_modules/.bin/lab --transform test/transformer.js -r html -o coverage.html",
+    "compile": "node_modules/.bin/babel -s -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ubaltaci/hapi-plugin-boilerplate.git"
+  },
+  "keywords": [
+    "hapi plugin boilerplate",
+    "hapijs",
+    "hapi plugin es6",
+    "hapi es6",
+    "es6",
+    "hapi"
+  ],
+  "author": {
+    "name": "Uğur Baltacı",
+    "email": "ugur@kns.com.tr",
+    "web": "http://www.ugurbaltaci.com"
+  },
+  "contributors": {
+    "name": "Çağdaş Akar",
+    "email": "cagdas@kns.com.tr",
+    "web": "http://www.cagdasakar.com"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+.idea
+dist
+coverage
+coverage.*
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+
+pids
+heapdump-*.heapsnapshot
+heapdump-*.log
+results
+node_modules
+logs/*
+toberemoved
+public/components
+
+npm-debug.log
+
+# Mac OS X file system
+.DS_Store
+# temporary files
+*~
