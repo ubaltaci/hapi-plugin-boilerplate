@@ -15,7 +15,7 @@ internals.implementation = (server, options) => {
 
     // Plugin logic goes here!
     server.route({
-        path: "/say/my/name/{name}",
+        path: "/",
         method: "GET",
         config: {
             auth: false,
