@@ -1,17 +1,17 @@
-# hapi-plugin
+# hapi-plugin-boilerplate
 
-[![npm](https://img.shields.io/npm/v/hapi-plugin.svg)](http://npmjs.org/package/hapi-plugin) [![travis-status](https://img.shields.io/travis/g-div/hapi-plugin.svg)](https://travis-ci.org/g-div/hapi-plugin)
+[![npm](https://img.shields.io/npm/v/hapi-plugin-boilerplate.svg)](http://npmjs.org/package/hapi-plugin-boilerplate) [![travis-status](https://img.shields.io/travis/g-div/hapi-plugin.svg)](https://travis-ci.org/g-div/hapi-plugin-boilerplate)
 
 hapi plugin
 
-[![nodei.co](https://nodei.co/npm/hapi-plugin.png?downloads=true&downloadRank=true&stars=true)](http://npmjs.org/package/hapi-plugin)
+[![nodei.co](https://nodei.co/npm/hapi-plugin-boilerplate.png?downloads=true&downloadRank=true&stars=true)](http://npmjs.org/package/hapi-plugin-boilerplate)
 
-[![](https://david-dm.org/g-div/hapi-plugin/status.svg)](https://david-dm.org/g-div/hapi-plugin)
-[![](https://david-dm.org/g-div/hapi-plugin/dev-status.svg)](https://david-dm.org/g-div/hapi-plugin)
+[![](https://david-dm.org/g-div/hapi-plugin/status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
+[![](https://david-dm.org/g-div/hapi-plugin/dev-status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
 
 ## Install
 
-`npm install --save hapi-plugin`
+`npm install --save hapi-plugin-boilerplate`
 
 ## Use
 
@@ -22,7 +22,7 @@ var server = new Hapi.Server();
 
 var options = {};
 
-server.register({register: require('hapi-plugin'), options: options}, function(err) {
+server.register({register: require('hapi-plugin-boilerplate'), options: options}, function(err) {
 
 });
 ```
