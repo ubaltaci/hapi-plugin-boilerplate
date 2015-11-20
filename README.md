@@ -1,13 +1,13 @@
 # hapi-plugin-boilerplate
 
-[![npm](https://img.shields.io/npm/v/hapi-plugin-boilerplate.svg)](http://npmjs.org/package/hapi-plugin-boilerplate) [![travis-status](https://img.shields.io/travis/g-div/hapi-plugin.svg)](https://travis-ci.org/g-div/hapi-plugin-boilerplate)
+[![npm](https://img.shields.io/npm/v/hapi-plugin-boilerplate.svg)](http://npmjs.org/package/hapi-plugin-boilerplate) [![travis-status](https://img.shields.io/travis/g-div/hapi-plugin-boilerplate.svg)](https://travis-ci.org/g-div/hapi-plugin-boilerplate)
 
 hapi plugin
 
 [![nodei.co](https://nodei.co/npm/hapi-plugin-boilerplate.png?downloads=true&downloadRank=true&stars=true)](http://npmjs.org/package/hapi-plugin-boilerplate)
 
-[![](https://david-dm.org/g-div/hapi-plugin/status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
-[![](https://david-dm.org/g-div/hapi-plugin/dev-status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
+[![](https://david-dm.org/g-div/hapi-plugin-boilerplate/status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
+[![](https://david-dm.org/g-div/hapi-plugin-boilerplate/dev-status.svg)](https://david-dm.org/g-div/hapi-plugin-boilerplate)
 
 ## Install
 
