@@ -2,7 +2,7 @@ var Babel = require("babel");
 
 module.exports = [
     {
-        ext: ".es6", transform: function (content, filename) {
+        ext: ".js", transform: function (content, filename) {
 
         // Make sure to only transform your code or the dependencies you want
         if (filename.indexOf("node_modules") === -1) {
