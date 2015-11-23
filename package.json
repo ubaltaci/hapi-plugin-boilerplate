@@ -25,7 +25,8 @@
     "postcompile": "npm run readme",
     "readme": "node-readme",
     "prepush": "npm-run-all compile test",
-    "prepublish": "npm-run-all compile test"
+    "prepublish": "npm-run-all compile test",
+    "postpublish": "git push origin master --follow-tags"
   },
   "repository": {
     "type": "git",
