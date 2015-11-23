@@ -43,6 +43,19 @@ Package | Version | Dev
 [npm-run-all](https://www.npmjs.com/package/npm-run-all) | ^1.3.1 | ✔
 
 
+## Contribute
+
+Contributions are welcome!
+Open an [issue](https://github.com/g-div/hapi-plugin-boilerplate/issues) to report bugs or request features. 
+To contribute with code:
+- clone this repository
+- install the dependencies with ```npm install```
+- make your changes to the files in the ```src/``` folder
+- write tests using [lab](https://github.com/hapijs/lab) and [code](https://github.com/hapijs/code/) in the ```test/``` folder
+- run tests with ```npm test```. try to keep test coverage about 100%
+- edit the ```.README.md``` file and build the project again (```npm run compile```)
+- send a pull request against the master branch
+
 ## Author
 
 g-div
