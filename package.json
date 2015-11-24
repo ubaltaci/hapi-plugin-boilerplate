@@ -26,6 +26,9 @@
     "readme": "node-readme",
     "prepush": "npm-run-all compile test",
     "prepublish": "npm-run-all compile test",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
     "postpublish": "git push origin master --follow-tags"
   },
   "repository": {
