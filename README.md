@@ -34,7 +34,9 @@ server.register({register: require('hapi-plugin-boilerplate'), options: options}
 
 Package | Version | Dev
 --- |:---:|:---:
-[babel](https://www.npmjs.com/package/babel) | ^5.2.6 | ✔
+[babel-cli](https://www.npmjs.com/package/babel-cli) | ^6.2.0 | ✔
+[babel-core](https://www.npmjs.com/package/babel-core) | ^6.2.1 | ✔
+[babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) | ^6.1.18 | ✔
 [code](https://www.npmjs.com/package/code) | ^2.0.1 | ✔
 [hapi](https://www.npmjs.com/package/hapi) | ^11.1.2 | ✔
 [husky](https://www.npmjs.com/package/husky) | ^0.10.2 | ✔
