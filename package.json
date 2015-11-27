@@ -1,7 +1,7 @@
 {
   "name": "hapi-plugin-boilerplate",
   "author": "g-div",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "hapi plugin",
   "devDependencies": {
     "babel-cli": "^6.2.0",
