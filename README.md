@@ -60,11 +60,7 @@ To contribute with code:
 
 ## Author
 
-[g-div](https://github.com/function (options) {
-            return (macros[key] || function () {
-                return '';
-            })(options, scope);
-        })
+[g-div](https://github.com/g-div)
 
 ## License
 
