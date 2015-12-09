@@ -41,8 +41,8 @@ Package | Version | Dev
 [code](https://www.npmjs.com/package/code) | ^2.0.1 | ✔
 [hapi](https://www.npmjs.com/package/hapi) | ^11.1.2 | ✔
 [husky](https://www.npmjs.com/package/husky) | ^0.10.2 | ✔
-[lab](https://www.npmjs.com/package/lab) | ^7.3.0 | ✔
 [lab-babel](https://www.npmjs.com/package/lab-babel) | ^1.1.1 | ✔
+[lab](https://www.npmjs.com/package/lab) | ^8.0.0 | ✔
 [node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✔
 [npm-run-all](https://www.npmjs.com/package/npm-run-all) | ^1.3.2 | ✔
 
