@@ -36,11 +36,13 @@ Package | Version | Dev
 --- |:---:|:---:
 [babel-cli](https://www.npmjs.com/package/babel-cli) | ^6.2.0 | ✔
 [babel-core](https://www.npmjs.com/package/babel-core) | ^6.2.1 | ✔
+[babel-eslint](https://www.npmjs.com/package/babel-eslint) | ^5.0.0-beta4 | ✔
 [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) | ^6.1.18 | ✔
 [code](https://www.npmjs.com/package/code) | ^2.0.1 | ✔
 [hapi](https://www.npmjs.com/package/hapi) | ^11.1.2 | ✔
 [husky](https://www.npmjs.com/package/husky) | ^0.10.2 | ✔
 [lab](https://www.npmjs.com/package/lab) | ^7.3.0 | ✔
+[lab-babel](https://www.npmjs.com/package/lab-babel) | ^1.1.1 | ✔
 [node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✔
 [npm-run-all](https://www.npmjs.com/package/npm-run-all) | ^1.3.2 | ✔
 
