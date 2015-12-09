@@ -1,5 +1,5 @@
 // Declare internals
-let internals = {};
+const internals = {};
 
 exports.register = (server, options, next) => {
 
