@@ -1,5 +1,5 @@
 // Declare internals
-let internals = {};
+const internals = {};
 
 exports.register = (server, options, next) => {
 
@@ -8,15 +8,15 @@ exports.register = (server, options, next) => {
 };
 
 exports.register.attributes = {
-    pkg: require("../package.json")
+    pkg: require('../package.json')
 };
 
 internals.implementation = (server, options) => {
 
     // Plugin logic goes here!
     server.route({
-        path: "/say/my/name/{name}",
-        method: "GET",
+        path: '/',
+        method: 'GET',
         config: {
             auth: false,
             handler: (request, reply) => {

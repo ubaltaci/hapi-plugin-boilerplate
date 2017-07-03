@@ -10,9 +10,9 @@ const after = lab.after;
 const expect = Code.expect;
 
 
-describe("Hapi Plugin Boilerplate", () => {
+describe("Hapi Plugin", () => {
 
-    it("returns my name", (done) => {
+    it("pass the test", (done) => {
 
         const server = new Hapi.Server();
         server.connection();
@@ -21,13 +21,11 @@ describe("Hapi Plugin Boilerplate", () => {
 
             expect(error).to.not.exist();
 
-            const request = {
-                method: "GET",
-                url: "/say/my/name/johndoe"
-            };
+            server.inject('/', (res) => {
 
-            server.inject(request, (res) => {
-                expect(res.result).to.equal("johndoe");
+                // Replace with real test
+                expect(res.result).to.equal(null);
+
                 done();
             });
         });

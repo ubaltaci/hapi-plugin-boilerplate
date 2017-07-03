@@ -1,47 +1,54 @@
 {
   "name": "hapi-plugin-boilerplate",
-  "version": "0.0.1",
-  "description": "hapi plugin boilerplate in es6 with babel",
-  "dependencies": {
-  },
+  "author": "g-div",
+  "version": "1.0.0",
+  "description": "hapi plugin",
   "devDependencies": {
-    "babel": "^5.2.6",
-    "babel-eslint": "^3.0.1",
-    "code": "^1.4.0",
-    "lab": "^5.8.0"
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.1.18",
+    "code": "^4.0.0",
+    "hapi": "^16.1.1",
+    "husky": "^0.14.2",
+    "lab": "^13.0.2",
+    "lab-babel": "^1.1.1",
+    "node-readme": "^0.1.9",
+    "npm-run-all": "^4.0.2"
   },
   "peerDependencies": {
     "hapi": ">= 8.x.x"
   },
   "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint --ext .es6 src/",
-    "test": "npm run compile && node_modules/.bin/lab --transform test/transformer.js -t 100",
-    "coverage": "npm run compile && npm run lint && node_modules/.bin/lab --transform test/transformer.js -r html -o coverage.html",
-    "compile": "node_modules/.bin/babel -s -d dist/ src/",
-    "prepublish": "npm run compile"
+    "pretest": "npm run compile",
+    "test": "lab --transform node_modules/lab-babel -t 100 --ignore __core-js_shared__",
+    "precoverage": "npm run compile",
+    "coverage": "lab --transform node_modules/lab-babel --lint --ignore __core-js_shared__ -r html -o coverage.html",
+    "compile": "babel -s -d dist/ src/",
+    "postcompile": "npm run readme",
+    "readme": "node-readme",
+    "prepush": "npm-run-all compile test",
+    "prepublish": "npm-run-all compile test",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
+    "postpublish": "git push origin master --follow-tags"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ubaltaci/hapi-plugin-boilerplate.git"
+    "url": "git@github.com:g-div/hapi-plugin-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g-div/hapi-plugin-boilerplate/issues"
   },
   "keywords": [
-    "hapi plugin boilerplate",
-    "hapijs",
-    "hapi plugin es6",
-    "hapi es6",
-    "es6",
     "hapi"
   ],
-  "author": {
-    "name": "Uğur Baltacı",
-    "email": "ugur@kns.com.tr",
-    "web": "http://www.ugurbaltaci.com"
-  },
-  "contributors": {
-    "name": "Çağdaş Akar",
-    "email": "cagdas@kns.com.tr",
-    "web": "http://www.cagdasakar.com"
-  },
   "license": "MIT"
 }
